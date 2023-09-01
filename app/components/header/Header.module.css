@@ -1,0 +1,24 @@
+.header {
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 16px;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+}
