@@ -11,7 +11,7 @@ async function ContainerItems() {
     const users = await fetchPoke();
   return (
     <div className="justify-center items-center">
-    <section className="grid grid-cols-3 gap-4">
+    <section className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <Items users={users} />
     </section>
     </div>
